@@ -1,0 +1,29 @@
+{
+  "name": "@pirxpilot/events",
+  "version": "0.0.0",
+  "description": "Simple dom event management.",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
+  },
+  "repository": "pirxpilot/events",
+  "license": "MIT",
+  "keywords": [
+    "browser",
+    "event",
+    "dom"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "~2",
+    "mocha": "~4",
+    "should": "~13"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js"
+  ]
+}
