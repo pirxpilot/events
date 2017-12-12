@@ -14,8 +14,9 @@
     "event",
     "dom"
   ],
-  "dependencies": {},
   "devDependencies": {
+    "jsdom": "~11",
+    "jsdom-global": "~3",
     "jshint": "~2",
     "mocha": "~4",
     "should": "~13"
