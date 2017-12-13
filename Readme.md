@@ -2,9 +2,9 @@
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][gemnasium-image]][gemnasium-url]
 
-# pirxpilot-events
+# events
 
-Simple dom event management. Heavily inspired by [component/events].
+Bare-bones dom event management. Heavily inspired by [component/events].
 Use when multiple event listeners are naturally part of the same object.
 
 ## Install
@@ -55,11 +55,13 @@ remove event listener for specific `event`, if `event` is not specified remove a
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
 
-[npm-image]: https://img.shields.io/npm/v/pirxpilot-events.svg
-[npm-url]: https://npmjs.org/package/pirxpilot-events
+[npm-image]: https://img.shields.io/npm/v/@pirxpilot/events.svg
+[npm-url]: https://npmjs.org/package/@pirxpilot/events
 
-[travis-url]: https://travis-ci.org/pirxpilot/pirxpilot-events
-[travis-image]: https://img.shields.io/travis/pirxpilot/pirxpilot-events.svg
+[travis-url]: https://travis-ci.org/pirxpilot/events
+[travis-image]: https://img.shields.io/travis/pirxpilot/events.svg
 
-[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/pirxpilot-events.svg
-[gemnasium-url]: https://gemnasium.com/pirxpilot/pirxpilot-events
+[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/events.svg
+[gemnasium-url]: https://gemnasium.com/pirxpilot/events
+
+[component/events]: https://github.com/component/events
