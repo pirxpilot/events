@@ -1,4 +1,5 @@
-// var should = require('should');
+const { describe, it } = require('node:test');
+
 var events = require('../');
 
 describe('events', function () {

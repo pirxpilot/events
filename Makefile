@@ -4,6 +4,6 @@ lint:
 	./node_modules/.bin/jshint *.js test
 
 test:
-	./node_modules/.bin/mocha --recursive --require should --require jsdom-global/register
+	node --require should --require jsdom-global/register --test
 
 .PHONY: check lint test

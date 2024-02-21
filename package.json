@@ -16,9 +16,8 @@
   ],
   "devDependencies": {
     "@pirxpilot/jshint": "~3",
-    "jsdom": "~11",
+    "jsdom": "~24",
     "jsdom-global": "~3",
-    "mocha": "~4",
     "should": "~13"
   },
   "scripts": {

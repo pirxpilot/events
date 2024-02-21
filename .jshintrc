@@ -4,12 +4,12 @@
   "eqnull": true,
   "immed": true,
   "latedef": "nofunc",
-  "mocha" : true,
   "newcap": true,
   "noarg": true,
   "node": true,
   "sub": true,
   "undef": true,
   "unused": true,
-  "browser": true
+  "browser": true,
+  "esversion": 11
 }
