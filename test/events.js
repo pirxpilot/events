@@ -1,13 +1,14 @@
-// var should = require('should');
-var events = require('../');
+const { describe, it } = require('node:test');
+
+const events = require('../');
 
 describe('events', function () {
   it('must bind event', function () {
-    var clicks = 0;
-    var handlers = {
-      click: function() { clicks++; }
+    let clicks = 0;
+    const handlers = {
+      click() { clicks++; }
     };
-    var div = document.createElement('div');
+    const div = document.createElement('div');
 
     events(div, handlers).bind('click');
 
@@ -18,11 +19,11 @@ describe('events', function () {
   });
 
   it('must bind event when method name is passed', function () {
-    var clicks = 0;
-    var handlers = {
-      onclick: function() { clicks++; }
+    let clicks = 0;
+    const handlers = {
+      onclick() { clicks++; }
     };
-    var div = document.createElement('div');
+    const div = document.createElement('div');
 
     events(div, handlers).bind('click', 'onclick');
 
@@ -32,15 +33,14 @@ describe('events', function () {
     clicks.should.eql(2);
   });
 
-
   it('must unbind event', function () {
-    var clicks = 0;
-    var handlers = {
-      click: function() { clicks++; }
+    let clicks = 0;
+    const handlers = {
+      click() { clicks++; }
     };
-    var div = document.createElement('div');
+    const div = document.createElement('div');
 
-    var e = events(div, handlers);
+    const e = events(div, handlers);
 
     e.bind('click');
 
@@ -53,18 +53,17 @@ describe('events', function () {
     clicks.should.eql(1);
   });
 
-
   it('must unbind all events when no event name is passed', function () {
-    var clicks = 0;
-    var foos = 0;
-    var handlers = {
-      click: function() { clicks++; },
-      foo: function() { foos++; }
+    let clicks = 0;
+    let foos = 0;
+    const handlers = {
+      click() { clicks++; },
+      foo() { foos++; }
     };
-    var div = document.createElement('div');
-    var ev = new CustomEvent('foo');
+    const div = document.createElement('div');
+    const ev = new CustomEvent('foo');
 
-    var e = events(div, handlers);
+    const e = events(div, handlers);
 
     e.bind('click');
     e.bind('foo');
@@ -84,6 +83,4 @@ describe('events', function () {
     clicks.should.eql(1);
     foos.should.eql(1);
   });
-
-
 });
