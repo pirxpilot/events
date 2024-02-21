@@ -1,6 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
 # events
 
@@ -55,13 +55,13 @@ remove event listener for specific `event`, if `event` is not specified remove a
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
 
-[npm-image]: https://img.shields.io/npm/v/@pirxpilot/events.svg
+[npm-image]: https://img.shields.io/npm/v/@pirxpilot/events
 [npm-url]: https://npmjs.org/package/@pirxpilot/events
 
-[travis-url]: https://travis-ci.org/pirxpilot/events
-[travis-image]: https://img.shields.io/travis/pirxpilot/events.svg
+[build-url]: https://github.com/pirxpilot/events/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/events/check.yaml?branch=main
 
-[gemnasium-image]: https://img.shields.io/gemnasium/pirxpilot/events.svg
-[gemnasium-url]: https://gemnasium.com/pirxpilot/events
+[deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/events
+[deps-url]: https://libraries.io/npm/@pirxpilot%2Fevents
 
 [component/events]: https://github.com/component/events

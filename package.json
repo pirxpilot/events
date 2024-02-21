@@ -7,7 +7,7 @@
     "email": "pirxpilot@furkot.com",
     "url": "https://pirxpilot.me"
   },
-  "repository": "pirxpilot/events",
+  "repository": "github:pirxpilot/events",
   "license": "MIT",
   "keywords": [
     "browser",
