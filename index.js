@@ -1,6 +1,4 @@
-module.exports = events;
-
-function events(el, obj) {
+export default function events(el, obj) {
   const handlers = new Map();
 
   function bind(name, handler, opts) {

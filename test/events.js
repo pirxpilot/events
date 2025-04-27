@@ -1,6 +1,5 @@
-const test = require('node:test');
-
-const events = require('../');
+import test from 'node:test';
+import events from '../index.js';
 
 test('must bind event', t => {
   let clicks = 0;
