@@ -4,6 +4,6 @@ lint:
 	./node_modules/.bin/jshint *.js test
 
 test:
-	node --require should --require jsdom-global/register --test
+	node --require jsdom-global/register --test
 
 .PHONY: check lint test
