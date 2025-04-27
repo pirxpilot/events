@@ -1,4 +1,13 @@
 
+3.0.0 / 2025-04-27
+==================
+
+ * transition to ESM format
+ * update dependencies
+ * use Map to keep track of handlers
+ * use `biome` as linter and formatter
+ * remove `should` dependency
+
 2.0.0 / 2024-02-21
 ==================
 
